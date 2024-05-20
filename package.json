@@ -4,6 +4,7 @@
   "description": "<!--\r **giovanisbrissia/giovanisbrissia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
   "main": "index.js",
   "scripts": {
+    "tailwindcss": "npx tailwindcss -i ./css/tailwindcss-input.css -o ./css/tailwindcss-output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/giovanisbrissia/giovanisbrissia/issues"
   },
-  "homepage": "https://github.com/giovanisbrissia/giovanisbrissia#readme"
+  "homepage": "https://github.com/giovanisbrissia/giovanisbrissia#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }
